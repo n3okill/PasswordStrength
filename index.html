@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Passwordstrength : PasswordStrength is a jQuery plugin to measure the strength of a password typed by the user." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Passwordstrength</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/n3okill/PasswordStrength">View on GitHub</a>
+
+          <h1 id="project_title">Passwordstrength</h1>
+          <h2 id="project_tagline">PasswordStrength is a jQuery plugin to measure the strength of a password typed by the user.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/n3okill/PasswordStrength/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/n3okill/PasswordStrength/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>PasswordStrength</h1>
+
+<h2>Description</h2>
+
+<p>PasswordStrength is a jQuery plugin to measure the strength of a password typed by the user.</p>
+
+<p>By default it will show the percentage of the password strength and the time that it takes to be cracked by brute-force attack, the time is calculated taking into account the fastest brute-force designed machine until December 2012 <a href="http://hackaday.com/2012/12/06/25-gpus-brute-force-348-billion-hashes-per-second-to-crack-your-passwords/">Brute Force 348 bllion hashes per second</a>.</p>
+
+<h2>Author</h2>
+
+<p><strong>João Parreira</strong>
+<a href="mailto:joaofrparreira@gmail.com">joaofrparreira@gmail.com</a></p>
+
+<h2>Version</h2>
+
+<p>0.1 Initial Release</p>
+
+<h2>Requirements</h2>
+
+<p>Created with jQuery JavaScript Library v1.8.3, but should work with older releases</p>
+
+<h2>How to Use</h2>
+
+<div class="highlight"><pre>    <span class="nt">&lt;input</span> <span class="na">size=</span><span class="s">"50"</span> <span class="na">maxlength=</span><span class="s">"100"</span> <span class="na">name=</span><span class="s">"password"</span> <span class="na">id=</span><span class="s">"password"</span> <span class="na">type=</span><span class="s">"password"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"passwordStrength"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">language=</span><span class="s">"javascript"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
+        <span class="nx">jQuery</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+            <span class="nx">jQuery</span><span class="p">(</span><span class="s2">"#password"</span><span class="p">).</span><span class="nx">passwordStrength</span><span class="p">({</span>
+                <span class="nx">targetDiv</span><span class="o">:</span><span class="s1">'passwordStrength'</span><span class="p">,</span>
+                <span class="nx">text</span><span class="o">:</span><span class="p">{</span>
+                    <span class="nx">year</span><span class="o">:</span><span class="s1">'year|years'</span>           
+                <span class="p">}</span>
+            <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="nt">&lt;/script&gt;</span>
+</pre></div>
+
+<h2>Inspiration</h2>
+
+<p><a href="http://danpalmer.me/jquery-complexify/">http://danpalmer.me/jquery-complexify/</a>
+<a href="http://unwrongest.com/projects/password-strength/">http://unwrongest.com/projects/password-strength/</a></p>
+
+<h2>Versioning</h2>
+
+<p>For transparency and insight into our release cycle, and for striving to maintain 
+backward compatibility, PasswordStrength will be maintained under the Semantic Versioning 
+guidelines as much as possible.</p>
+
+<p>Releases will be numbered with the follow format:</p>
+
+<p><code>&lt;major&gt;.&lt;minor&gt;.&lt;patch&gt;</code></p>
+
+<p>And constructed with the following guidelines:</p>
+
+<ul>
+<li>Breaking backward compatibility bumps the major</li>
+<li>New additions without breaking backward compatibility bumps the minor</li>
+<li>Bug fixes and misc changes bump the patch</li>
+</ul><p>For more information on SemVer, please visit <a href="http://semver.org/">http://semver.org/</a>.</p>
+
+<h2>Copyright and license</h2>
+
+<p>PasswordStrength (c) 2013 João Parreira <a href="mailto:joaofrparreira@gmail.com">joaofrparreira@gmail.com</a></p>
+
+<p>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</p>
+
+<p>This work is licensed under the Creative Commons 
+Attribution-NonCommercial-ShareAlike 3.0 Unported License. 
+To view a copy of this license, visit 
+<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</a> or send a letter to 
+Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 
+94041, USA.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Passwordstrength maintained by <a href="https://github.com/n3okill">n3okill</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-37977384-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+
+  </body>
+</html>
