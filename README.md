@@ -27,7 +27,6 @@ How to Use
     <input size="50" maxlength="100" name="password" id="password" type="password">
     <div id="passwordStrength"></div>
     <script language="javascript" type="text/javascript">
-        ´´´javascript
         jQuery(function(){
             jQuery("#password").passwordStrength({
                 targetDiv:'passwordStrength',
@@ -36,7 +35,6 @@ How to Use
                 }
             });
         });
-        ´´´
     </script>
 ```
 
