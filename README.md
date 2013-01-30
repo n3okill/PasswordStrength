@@ -14,7 +14,7 @@ Author
 
 Version
 -------
-0.1 Initial Release
+0.1.0 Initial Release
 
 Requirements
 ------------
@@ -31,7 +31,7 @@ How to Use
             jQuery("#password").passwordStrength({
                 targetDiv:'passwordStrength',
                 text:{
-                    year:'year|years'			
+                    year:'year|years'   //This allows to change the language of the plugin			
                 }
             });
         });
