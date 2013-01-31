@@ -18,7 +18,7 @@
  *
  * @author: João Parreira <joaofrparreira@gmail.com>
  * @package Project: passwordStrength.jquery 
- * @version 0.1
+ * @version 0.1.2
  *
  **/
 
@@ -32,7 +32,7 @@
 ;
 (function(jQuery, window, undefined) {
     var PasswordStrength = this.PasswordStrength = function(elem, options) {
-        this.options = jQuery.extend({}, jQuery.fn.passwordStrength.defaultSettings, options || {});
+        this.options = jQuery.extend(true,{}, jQuery.fn.passwordStrength.defaultSettings, options || {});
         this.$elem = jQuery(elem);
         this.percentage = 0;
         this.complexity = 0;

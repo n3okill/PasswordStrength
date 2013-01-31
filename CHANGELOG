@@ -1,0 +1,14 @@
+        jQuery Password Strength Change Log
+        ===================================
+
+Version 0.1.2
+-------------
+- Bug fix in the options parser (n3okill)
+
+Version 0.1.1
+-------------
+- README changes        
+
+Version 0.1.0
+-------------
+- Initial Release
