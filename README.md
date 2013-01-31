@@ -14,7 +14,7 @@ Author
 
 Version
 -------
-0.1.2 Initial Release
+0.1.3 Initial Release
 
 Requirements
 ------------
