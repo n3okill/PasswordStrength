@@ -80,3 +80,7 @@ To view a copy of this license, visit
 http://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to 
 Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 
 94041, USA.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/n3okill/passwordstrength/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
